@@ -1,0 +1,26 @@
+<package>
+  <name>spawn_urdf_cube_matrix</name>
+  <version>0.1.0</version>
+  <description>spawn_urdf_cube_matrix</description>
+  <maintainer email="js5425@columbia.edu">Jonathan Sanabria</maintainer>
+
+  <license>BSD</license>
+
+  <author email="js5425@columbia.edu">Jonathan Sanabria</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+
+  <run_depend>xacro</run_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>effort_controllers</run_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+
+  <export>
+  </export>
+</package>

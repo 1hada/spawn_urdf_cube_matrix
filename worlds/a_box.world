@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <!-- We use a custom world for the a_matrix, so that the camera angle is launched correctly -->
+
+  <world name="default">
+
+
+    <!-- Global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Focus camera on big box
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>300 300 300 3.14 2.5 .8</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>-->
+    <!-- Focus camera on big box -->
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose> 20 20 20 3.14 2.5 .8</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+  </world>
+</sdf>
