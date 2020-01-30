@@ -25,7 +25,7 @@ then I sincerely hope these files will help guide you to be able to do that. Enj
 
 You wont find any files in the URDF directory because all gazebo shapes are spawned in the c++ file.
 
-#THE 3D MATRIX
+# THE 3D MATRIX
 
 ![a floating shape ros Demo](https://raw.githubusercontent.com/1hada/spawn_urdf_cube_matrix/master/cube_matrix_8x8x8.gif)
 
@@ -129,7 +129,7 @@ And
 
 ### SIDE NOTE
 
-I am aware that the links are unified into one. As an enouraged exercise I leave it to the reader to 
+I am aware that the links are unified into one. As an encouraged exercise I leave it to the reader to 
 play with the code and make it so that the links are shown as individuals.
 I post this gif here to show that it is possible to do so. 
 Have Fun !
