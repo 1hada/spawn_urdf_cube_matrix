@@ -1,6 +1,6 @@
 
 
-#THE 2D MATRIX
+# THE 2D MATRIX
 
 ![a floating shape ros Demo](https://raw.githubusercontent.com/1hada/spawn_urdf_cube_matrix/master/cube_matrix_100x100.gif)
 
@@ -44,7 +44,7 @@ These are the steps I took to spawn the matrix,
 they may be different depending on how you
 set-up / use ros on your computer.
 
-#STEP1
+# STEP1
 Go to you catkin workspace "src" directory.
 
 Make the package.
@@ -55,20 +55,20 @@ catkin_create_pkg spawn_urdf_cube_matrix
 ```
 You can move the files you've cloned from this repository into that directory later if it is easier for you.
 
-#STEP2
+# STEP2
 Make sure the package is known to ROS.
 ```
 cd ~/catkin_ws
 . ~/catkin_ws/devel/setup.bash
 ```
-#STEP3
+# STEP3
 Launch the world where the matrix will exist. 
 NOTE : I have not included the 
 ```
 roslaunch spawn_urdf_cube_matrix a_matrix_world.launch
 ```
 
-#STEP4 
+# STEP4 
 I've attached the command structure you'd need if you want to recompile the c++ code with the ROS headers.
 
 ```
@@ -127,8 +127,24 @@ And
 ``` 
 
 
+### SIDE NOTE
+
+I am aware that the links are unified into one. As an enouraged exercise I leave it to the reader to 
+play with the code and make it so that the links are shown as individuals.
+I post this gif here to show that it is possible to do so. 
+Have Fun !
+
+![link presence ros Demo](https://raw.githubusercontent.com/1hada/spawn_urdf_cube_matrix/master/link_individuality_note.gif)
 
 
+
+
+
+
+
+
+Since you made it this far.
+Hint : Consider the joints.
 
 
 
